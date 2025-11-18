@@ -1,11 +1,13 @@
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
+   <>
+   <h1>Aqui vem o layout do about</h1>
+   {children}
+   </>
   );
 }
